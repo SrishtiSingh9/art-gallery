@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/fd75726556.js" crossorigin="anonymous"></script>
+    <title>Artists</title>
+    <style>
+          * {
+        margin: 0;
+        padding: 0;
+    }
+        .artist{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        .art{
+            border: 1px solid black;
+            margin: 30px;
+            padding: 10px;
+            width: 350px;
+            justify-content: center;
+            border-radius: 20px;
+        }
+        .art:hover{
+            background-color:#8c19a1;           
+            color: #19e6b8;
+            border: 2px solid #8c19a1;
+        }
+        img{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+        }
+        
+.gallery-footer {
+            background-color: #8c19a1;
+            color: #19e6b8;;
+            padding: 30px 0;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .contact-info, .social-media {
+            flex: 1;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .contact-info p, .social-media p {
+            margin-bottom: 10px;
+        }
+
+        .social-icon {
+            margin: 0 10px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .navbar {
+        background-color: #8c19a1;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar a {
+        margin: 0px 50px 0px 50px;
+        color: #19e6b8;
+        text-decoration: none;
+        font-size: 1.35rem;
+        padding: 6px;
+        
+    }
+    
+    .logo {
+        margin-left: 1px;
+        border-radius: 10px;
+        height: 170px;
+        width: 170px;
+
+    }
+
+    .navbar a:hover {
+    
+        background-color: aliceblue;
+        border-radius: 10px;
+    }
+    .port{
+        text-align: left;
+        margin-left: 9px;
+    }
+    .port a{
+        color:black;
+        text-decoration: none;
+    }
+    .port a:hover{
+        color:#19e6b8
+    }
+
+        
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+
+        <img src="p.png" height="150px " width="150px" class="logo">
+        <a href="index.html">Home</a>
+        <a href="#about">About</a>
+        <a href="artist.html">Artist<br> Profile</a>
+        <a href="arts.html">Browse<br> All Art</a>
+        <a href="contactus.html">Contact Us</a>
+        <a href="login.html">Login/Sign In</a>
+        <br>
+
+    </nav><br>
+    <div class="artist">
+        <div class="art">
+            <img src="shrishti.jpeg">
+            <h2>Shrishti Singh</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                
+    <p class="port">Portfolio: <a href="https://www.google.com/"> www.shrishtiport.com </a></p>
+        </div>
+
+        <div class="art">
+            <img src="me.jpeg">
+            <h2>Srishti J. Singh</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <p class="port">Portfolio: <a href="https://www.google.com/"> www.srishtijport.com </a></p>
+        </div>
+    </div>
+    <div class="artist">
+        <div class="art">
+            <img src="srishti.jpg">
+            <h2>Srishti S. Singh</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <p class="port">Portfolio: <a href="https://www.google.com/"> www.srishtisport.com </a></p>
+        </div>
+
+        <div class="art">
+            <img src="adwai.jpg">
+            <h2>Adwai Surve</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <p class="port">Portfolio: <a href="https://www.google.com/"> www.adwaiport.com </a></p>
+        </div>
+    </div>
+    <div class="artist">
+        <div class="art">
+            <img src="dhrey.jpeg" alt="not available">
+            <h2>Dhyey Swadia</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            <p class="port">Portfolio: <a href="https://www.google.com/"> www.dhyeyport.com </a></p>
+            </div>
+        </div>
+    </div>
+    <section id="footer">
+        <center>
+            <footer class="gallery-footer">
+                <div class="footer-content">
+                    <div class="logo">
+                        <img src="p.png" alt="Aesthetic Atrium Logo" height="200px" width="200px">
+                    </div>
+                    <div class="contact-info">
+                        <p>Contact Us:</p>
+                        <p>Email: info@aestheticatrium.com</p>
+                        <p>Phone: +123-456-7890</p>
+                    </div>
+                    <div class="social-media">
+                        <p>Follow Us:</p>
+                        <a href="www.facebook.com" class="social-icon"><i class="fa-brands fa-facebook fa-2xl" style="color: #19e6b8;"></i></a>
+                        <a href="twitter.com" class="social-icon"><i class="fa-brands fa-twitter fa-2xl" style="color: #19e6b8;"></i></a>
+                        <a href="instagram.com" class="social-icon"><i class="fa-brands fa-instagram fa-2xl" style="color: #19e6b8;"></i></a>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2023 Aesthetic Atrium. All rights reserved.</p>
+                </div>
+            </footer>
+        </center>
+    </section>
+</body>
+
+</html>
